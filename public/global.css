@@ -17,7 +17,7 @@ body {
 	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; */
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 16px;
-	background-color: #efefef;
+	background-color: #f4f4f4;
 }
 
 a {
@@ -40,10 +40,10 @@ label {
 input, button, select, textarea {
 	font-family: inherit;
 	font-size: inherit;
-	padding: 0.4em;
-	margin: 0 0 0.5em 0;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
+	padding: .5rem 1.5rem;
+	margin: 0 0 0.5rem 0;
+	background-color: #fff;
+	border: 1px solid rgb(204, 204, 204);
 	border-radius: 2px;
 }
 
@@ -56,7 +56,8 @@ input[type="range"] {
 }
 
 button {
-	background-color: #f4f4f4;
+	color: #666;
+	background-color: #fff;
 	outline: none;
 }
 
